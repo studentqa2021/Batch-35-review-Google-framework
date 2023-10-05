@@ -1,0 +1,116 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-29T00:08:10.273Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1418700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.beforeAll()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "As a google user, i need to get only iphone 13 when i will search for iphone 13",
+        "description": "",
+        "id": "testing-google-search-function;as-a-google-user--i-need-to-get-only-iphone-13-when-i-will-search-for-iphone-13",
+        "after": [
+          {
+            "result": {
+              "duration": 37500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.afterAll()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6194952900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open a browser and go to google",
+            "match": {
+              "location": "StepDef.setup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 343074500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "search for iphone 13",
+            "match": {
+              "location": "StepDef.action()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 708517500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "iphone 13 should visible in search drop down",
+            "match": {
+              "location": "StepDef.validation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@TC_OB"
+          },
+          {
+            "name": "11"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Testing google search function",
+    "description": "description: google search only visible iphone 13",
+    "id": "testing-google-search-function",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Google.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  }
+]
